@@ -105,10 +105,16 @@ h2 {
     gap: 30px;
 }
 
-.card {
+.card1 {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
         url('/images/King-Social.jpg') center/cover no-repeat;
+    padding: 25px;
+    border: 1px solid #2c2c2c;
+}
+
+.card {
+    background: #1a1a1a;
     padding: 25px;
     border: 1px solid #2c2c2c;
 }
