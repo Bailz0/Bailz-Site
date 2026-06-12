@@ -186,6 +186,10 @@ footer {
         font-size: 3rem;
     }
 
+    header {
+        background-position: center -100px;
+    }
+
     nav a {
         display: inline-block;
         margin: 10px;
