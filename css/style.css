@@ -26,7 +26,7 @@ header {
     */
         url('../images/bailz0.jpg');
 
-    background-size: cover;
+    background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
 
