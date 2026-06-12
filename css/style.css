@@ -12,24 +12,14 @@ body {
         linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.9)),
         url('/images/bailz0.JPG');
 
-    background-size: 100% auto;
-    background-position: center;
+    background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
     height: 100vh;
-
-    background:
-    /*
-        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
-    */
-        url('../images/bailz0.JPG');
-
-    background-size: 100% auto;
-    background-position: center top;
-    background-repeat: no-repeat;
-
     display: flex;
     justify-content: center;
     align-items: center;
