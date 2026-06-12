@@ -103,6 +103,11 @@ h2 {
     border: 1px solid #2c2c2c;
 }
 
+.KingSocial h3 a {
+    color: white;
+    text-decoration: none;
+}
+
 .SouthernCross {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
