@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    height: 70vh;
+    height: 100vh;
 
     background:
     /*
@@ -184,10 +184,6 @@ footer {
 
     .hero h1 {
         font-size: 3rem;
-    }
-
-    header {
-        background-position: center top;
     }
 
     nav a {
