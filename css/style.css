@@ -115,6 +115,7 @@ h2 {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
         url('/images/bailz0.JPG') center/cover no-repeat;
+    background-position: centre top;
     padding: 25px;
     border: 1px solid #2c2c2c;
 }
