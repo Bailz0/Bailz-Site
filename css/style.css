@@ -147,7 +147,7 @@ h2 {
 .GlenDrover {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('/images/glen-drover.jpg') center/cover no-repeat;
+        url('/images/crypt0.jpg') center/cover no-repeat;
     padding: 25px;
     border: 1px solid #2c2c2c;
 }
@@ -160,7 +160,7 @@ h2 {
 .ShawnDrover {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('/images/shawn-drover.jpg') center/cover no-repeat;
+        url('/images/total0.jpg') center/cover no-repeat;
     padding: 25px;
     border: 1px solid #2c2c2c;
 }
@@ -173,7 +173,7 @@ h2 {
 .RegionalAV {
     background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('/images/regional-av.jpg') center/cover no-repeat;
+        url('/images/fate0.jpg') center/cover no-repeat;
     padding: 25px;
     border: 1px solid #2c2c2c;
 }
