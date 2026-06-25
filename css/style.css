@@ -144,6 +144,45 @@ h2 {
     text-decoration: none;
 }
 
+.GlenDrover {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('/images/glen-drover.jpg') center/cover no-repeat;
+    padding: 25px;
+    border: 1px solid #2c2c2c;
+}
+
+.GlenDrover h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.ShawnDrover {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('/images/shawn-drover.jpg') center/cover no-repeat;
+    padding: 25px;
+    border: 1px solid #2c2c2c;
+}
+
+.ShawnDrover h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.RegionalAV {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('/images/regional-av.jpg') center/cover no-repeat;
+    padding: 25px;
+    border: 1px solid #2c2c2c;
+}
+
+.RegionalAV h3 a {
+    color: white;
+    text-decoration: none;
+}
+
 .card {
     background: #1a1a1a;
     padding: 25px;
