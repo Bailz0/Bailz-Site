@@ -95,7 +95,7 @@ h2 {
 
 .music-grid,
 .project-grid {
-    height: 320px;
+    height: 220px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
@@ -190,6 +190,7 @@ h2 {
 }
 
 .card {
+    height: 220px;
     background: #1a1a1a;
     padding: 25px;
     border: 1px solid #2c2c2c;
