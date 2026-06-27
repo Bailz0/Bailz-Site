@@ -238,15 +238,21 @@ h2 {
 }
 
 .socials {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
     margin-top: 40px;
 }
 
 .socials a {
-    color: #ffffff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1.1rem;
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s ease;
+}
+
+.socials a:hover {
+    color: #bbbbbb;
+    transform: scale(1.15);
 }
 
 footer {
