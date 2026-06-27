@@ -5,6 +5,7 @@ html {
 body {
     margin: 0;
     font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
     font-weight: 400;
     color: #f2f2f2;
     line-height: 1.7;
@@ -95,10 +96,17 @@ h2 {
 
 .music-grid,
 .project-grid {
-    height: 220px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
+}
+
+.music-grid > div,
+.project-grid > div {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #about a,
