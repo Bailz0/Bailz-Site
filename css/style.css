@@ -255,6 +255,18 @@ h2 {
     transform: scale(1.15);
 }
 
+.webs a,
+.webs a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.webs a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    transition: 0.2s ease;
+}
+
 footer {
     text-align: center;
     padding: 50px 20px;
