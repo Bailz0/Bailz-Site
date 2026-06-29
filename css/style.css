@@ -39,6 +39,7 @@ header {
 
 .hero h1 {
     font-size: 5rem;
+    font-family: "Special Elite", serif;
     margin-bottom: 10px;
     letter-spacing: 5px;
 }
