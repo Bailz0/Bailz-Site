@@ -322,6 +322,18 @@ For session work, collaborations and music enquiries:
 </footer>
 
 <script src="js/main.js"></script>
+    <script>
+        const form = document.getElementById('lesson-form');
+        const message = document.getElementById('form-message');
+
+        form.addEventListener('submit', function(event) {
+            /* event.preventDefault(); */
+
+            message.textContent = "Thank you! Your lesson request has been received. I'll contact you soon to arrange a suitable time.";
+
+            form.reset();
+        });
+    </script>
 
 </body>
 </html>
