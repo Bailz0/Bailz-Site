@@ -40,10 +40,9 @@ header {
 }
 
 .hero-sign {
-    width: 180px;
-    max-width: 70%;
+    width: 60px;
     height: auto;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .hero h1 {
