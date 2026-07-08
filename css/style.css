@@ -39,12 +39,6 @@ header {
     max-width: 900px;
 }
 
-.hero-sign {
-    width: 240px;
-    height: auto;
-    margin-bottom: 12px;
-}
-
 .hero h1 {
     font-size: 8rem;
         /* font-family: "Special Elite", serif; */
@@ -355,6 +349,16 @@ h2 {
     color: #ffffff;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
     transition: 0.2s ease;
+}
+
+.footer-sign {
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+.footer-sign img {
+    width: 240px;
+    height: auto;
 }
 
 footer {
