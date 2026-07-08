@@ -39,6 +39,13 @@ header {
     max-width: 900px;
 }
 
+.hero-sign {
+    width: 180px;
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
 .hero h1 {
     font-size: 8rem;
         /* font-family: "Special Elite", serif; */
