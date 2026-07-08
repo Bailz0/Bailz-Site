@@ -287,11 +287,9 @@ For session work, collaborations and music enquiries:
 <section id="lessons">
     <h2>Book a Guitar Lesson</h2>
     <p>Fill out the form below to request an online guitar lesson via Teams. I'll get in touch to confirm the details and send you the invite.</p>
-    <form id="lesson-form">
-    <form
+    <form id="lesson-form"
           action="https://formspree.io/f/xaqgzbor"
-          method="POST"
-    >
+          method="POST">
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name" required>
 
@@ -306,7 +304,7 @@ For session work, collaborations and music enquiries:
 
         <button type="submit">Submit Request</button>
     </form>
-    <p id="form-message"></p>
+    <div id="form-message" class="form-message"></div>
 </section>
 
 <footer>
