@@ -284,6 +284,27 @@ For session work, collaborations and music enquiries:
 </div>
 </section>
 
+<section id="lessons">
+    <h2>Book a Guitar Lesson</h2>
+    <p>Fill out the form below to request an online guitar lesson via Teams. I'll get in touch to confirm the details and send you the invite.</p>
+    <form id="lesson-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="preferred-date">Preferred Lesson Date & Time:</label>
+        <input type="datetime-local" id="preferred-date" name="preferred-date" required>
+
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+
+        <button type="submit">Submit Request</button>
+    </form>
+    <p id="form-message"></p>
+</section>
+
 <footer>
 
 <p>
