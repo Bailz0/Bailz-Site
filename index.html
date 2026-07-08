@@ -320,18 +320,64 @@ For session work, collaborations and music enquiries:
 </footer>
 
 <script src="js/main.js"></script>
-    <script>
-        const form = document.getElementById('lesson-form');
-        const message = document.getElementById('form-message');
+<script>
+    const form = document.getElementById("lesson-form");
+    const message = document.getElementById("form-message");
 
-        form.addEventListener('submit', function(event) {
-            /* event.preventDefault(); */
+    form.addEventListener("submit", async function(event) {
 
-            message.textContent = "Thank you! Your lesson request has been received. I'll contact you soon to arrange a suitable time.";
+    event.preventDefault();
+
+    const data = new FormData(form);
+
+    try {
+
+        const response = await fetch(form.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                "Accept": "application/json"
+            }
+        });
+
+        if (response.ok) {
+
+            message.innerHTML = `
+                <h3>🎸 Lesson Request Sent!</h3>
+                <p>Thanks for getting in touch.</p>
+                <p>I'll personally contact you within 24–48 hours to discuss your goals, arrange a suitable lesson time, and send your Microsoft Teams invitation.</p>
+            `;
+
+            message.classList.add("show");
 
             form.reset();
-        });
-    </script>
+
+            setTimeout(() => {
+                message.classList.remove("show");
+            }, 10000);
+
+        } else {
+
+            message.innerHTML = `
+                <h3>Oops!</h3>
+                <p>Something went wrong. Please try again.</p>
+            `;
+
+            message.classList.add("show");
+        }
+
+    } catch {
+
+        message.innerHTML = `
+            <h3>Connection Error</h3>
+            <p>Please check your internet connection and try again.</p>
+        `;
+
+        message.classList.add("show");
+    }
+
+});
+</script>
 
 </body>
 </html>
