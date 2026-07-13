@@ -371,6 +371,9 @@ footer {
 
 @media(max-width: 768px) {
 
+    body {
+        background-attachment: scroll;
+    }
     .hero h1 {
         font-size: 3rem;
     }
