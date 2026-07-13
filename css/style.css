@@ -373,8 +373,8 @@ footer {
 
     body {
         background-attachment: scroll;
-        background-size: auto;
-        background-position: center;
+        background-size: cover;
+        background-position: center center;
     }
     .hero h1 {
         font-size: 3rem;
