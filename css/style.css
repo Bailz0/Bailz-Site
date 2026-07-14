@@ -19,7 +19,7 @@ body {
     background-size: 1920px auto;
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 h1, h2, h3 {
@@ -378,7 +378,7 @@ footer {
         background-size: 100% auto;
         background-position: center top;
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .hero h1 {
         font-size: 3rem;
