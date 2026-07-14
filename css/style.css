@@ -391,7 +391,8 @@ footer {
         background-position: center top;
         background-repeat: no-repeat;
 
-        z-index: -1;
+        z-index: 0;
+        pointer-events: none;
     }
     
     .hero h1 {
