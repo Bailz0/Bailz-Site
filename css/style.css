@@ -16,7 +16,7 @@ body {
     background-image:
         linear-gradient(rgba(0,0,0,.52), rgba(0,0,0,.5)),
         url("/images/bailz3.jpg");
-    background-size: cover;
+    background-size: 1920px auto;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: scroll;
